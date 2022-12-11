@@ -1,0 +1,25 @@
+.benefits {
+  @apply my-32;
+
+  h2 {
+    @apply text-6xl font-semibold mx-auto w-1/3 leading-snug;
+  }
+
+  &__block-wrapper {
+    @apply p-12;
+
+    background: #F4F6FC;
+
+    svg {
+      @apply text-blue-600 w-10 h-10;
+    }
+
+    h3 {
+      @apply text-2xl font-semibold mt-6 mb-3;
+    }
+
+    p {
+      @apply text-gray-700 leading-7;
+    }
+  }
+}

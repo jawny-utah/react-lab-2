@@ -1,0 +1,19 @@
+.team {
+  @apply py-32;
+
+  h2 {
+    @apply text-5xl leading-normal text-center font-semibold mb-12;
+  }
+
+  &__block-wrapper {
+    @apply p-16 pb-8 bg-white text-center;
+
+    h3 {
+      @apply text-2xl leading-9 font-semibold mt-7;
+    }
+
+    p {
+      @apply leading-7 text-gray-700;
+    }
+  }
+}

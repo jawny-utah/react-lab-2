@@ -1,0 +1,11 @@
+.our-blog {
+  @apply my-32;
+
+  &__title {
+    @apply text-5xl font-semibold mb-16;
+  }
+
+  &__wrapper {
+    @apply flex justify-between;
+  }
+}

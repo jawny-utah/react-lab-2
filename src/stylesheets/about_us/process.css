@@ -1,0 +1,38 @@
+.process {
+  @apply my-32;
+
+  h1 {
+    @apply text-5xl font-semibold text-center;
+  }
+
+  &__blocks-container {
+    @apply flex gap-14 mt-14;
+  }
+
+  &__block-wrapper {
+    h2 {
+      @apply text-2xl font-semibold leading-9;
+    }
+
+    p {
+      @apply mt-2 leading-7;
+    }
+  }
+
+  &__icons-wrapper {
+    @apply mb-8 flex gap-6;
+
+    span {
+      @apply bg-blue-600 rounded-full;
+
+      min-width: 24px;
+      min-height: 24px;
+    }
+  }
+
+  &__dotted-line {
+    @apply border-dotted border-b-4 border-blue-300 w-full;
+
+    margin-bottom: 12px;
+  }
+}

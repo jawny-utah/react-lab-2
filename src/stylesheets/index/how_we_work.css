@@ -1,0 +1,35 @@
+.hww {
+  @apply mt-32 flex justify-between mb-40;
+
+  &__description {
+    @apply max-w-lg mt-6;
+  }
+
+  &__title {
+    @apply text-4xl font-semibold;
+  }
+
+  &__subtitle {
+    @apply mt-6 text-gray-600 leading-7;
+  }
+
+  &__points-wrapper {
+    @apply max-w-2xl flex flex-wrap gap-9;
+  }
+
+  &__point {
+    width: 45%;
+  }
+
+  &__point-desc {
+    @apply text-gray-700 text-sm leading-7;
+  }
+
+  &__number {
+    @apply bg-blue-600 px-6 py-4 rounded-xl flex text-xl font-semibold text-white w-fit shadow-lg;
+  }
+
+  &__point-title {
+    @apply text-3xl font-semibold my-4;
+  }
+}

@@ -1,0 +1,37 @@
+.footer {
+  @apply pt-24 text-white leading-7;
+
+  &__info {
+    @apply flex;
+  }
+
+  &__title {
+    @apply text-4xl font-bold;
+  }
+
+  &__subtitle {
+    @apply mt-4 text-base;
+  }
+
+  &__header {
+    @apply text-5xl font-bold;
+  }
+
+  &__subheader {
+    @apply mt-4;
+  }
+
+  &__contact-info-wrapper {
+    @apply flex gap-7 py-4 pl-9 w-fit text-gray-800 pr-32;
+
+    background: #FCD980;
+  }
+
+  &__icons-wrapper {
+    @apply flex mt-7 gap-8 items-center;
+
+    * {
+      @apply cursor-pointer;
+    }
+  }
+}

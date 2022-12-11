@@ -1,0 +1,38 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+@import "navbar";
+@import "button";
+@import "index/welcome_message";
+@import "index/how_we_work";
+@import "index/slogan";
+@import "index/testimony";
+@import "index/send_inquiry";
+@import "index/our_blog";
+
+@import "about_us/header";
+@import "about_us/who_we_are";
+@import "about_us/process";
+@import "about_us/mission_and_focus";
+@import "about_us/benefits";
+@import "about_us/team";
+
+@import "footer";
+@import "blog";
+@import "fonts";
+
+.container {
+  @apply px-6 mx-auto;
+}
+
+body {
+  @apply font-poppins;
+}
+
+.bg-purple {
+  background: #1C1E53;
+}
+
+.bg-gray {
+  background: #F4F6FC;
+}

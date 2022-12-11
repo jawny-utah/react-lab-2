@@ -1,0 +1,51 @@
+.button {
+  @apply inline-block rounded-lg cursor-pointer px-3 py-1;
+
+  &--orange-text {
+    @apply text-orange-600 font-semibold transition;
+
+    &:hover {
+      @apply text-orange-700;
+    }
+  }
+
+  &--text {
+    @apply text-gray-400 font-medium transition;
+
+    &:hover {
+      @apply text-gray-500;
+    }
+  }
+
+  &--orange {
+    @apply bg-orange-500 text-white font-medium hover:bg-orange-600 transition;
+  }
+
+  &--gold {
+    @apply bg-yellow-200 text-gray-800 font-semibold hover:bg-yellow-300 transition;
+  }
+
+  &--big {
+    @apply px-14 py-3 text-xl;
+
+    border-radius: 41px;
+  }
+
+  &--max {
+    @apply py-4 text-lg;
+
+    border-radius: 41px;
+  }
+
+  &--outline {
+    @apply border border-gray-300 text-white border-solid transition hover:bg-slate-300 hover:text-black;
+  }
+
+  &--flex {
+    @apply flex;
+  }
+
+  &--no-p {
+    @apply p-0;
+  }
+}

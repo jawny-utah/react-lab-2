@@ -1,0 +1,19 @@
+.blog {
+  width: 31%;
+
+  img {
+    @apply w-full;
+  }
+
+  &__date {
+    @apply text-gray-400 text-base mt-10 mb-4 font-medium;
+  }
+
+  &__title {
+    @apply text-2xl font-medium leading-9;
+  }
+
+  &__description {
+    @apply text-base leading-7 mt-4 text-gray-500;
+  }
+}

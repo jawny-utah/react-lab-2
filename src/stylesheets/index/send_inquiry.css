@@ -1,0 +1,51 @@
+.send {
+  @apply relative mb-40;
+
+  &__image-text {
+    @apply flex flex-col p-24 relative overflow-hidden w-1/2;
+
+    img {
+      @apply absolute top-0 -z-10 left-0 w-full h-auto brightness-50;
+
+      transform: translate(0, 109px) scale(1.5);
+    }
+  }
+
+  &__title {
+    @apply text-5xl text-white font-semibold leading-normal;
+  }
+
+  &__subtitle {
+    @apply text-white mt-12 leading-7;
+  }
+
+  &__form {
+    @apply text-white pt-24 px-24 pb-12 w-1/2;
+
+    background: #1C1E53;
+
+    input {
+      @apply py-4 px-8 rounded-lg border border-solid border-opacity-10 w-full border-gray-100 bg-transparent outline-none;
+    }
+  }
+
+  &__input-wrapper {
+    @apply flex flex-col gap-4 mt-10;
+  }
+
+  &__form-title {
+    @apply font-medium text-3xl;
+  }
+
+  &__form-description {
+    @apply font-medium leading-7 text-base mt-4;
+  }
+
+  &__get-in-touch {
+    @apply text-lg font-medium text-white mt-7 justify-center gap-2 flex cursor-pointer;
+
+    svg {
+      @apply w-7 h-7;
+    }
+  }
+}

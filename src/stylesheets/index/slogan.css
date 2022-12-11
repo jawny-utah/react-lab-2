@@ -1,0 +1,33 @@
+.slogan {
+  @apply py-52 text-center;
+
+  &__subtitle {
+    @apply text-sm text-gray-600 mb-5;
+  }
+
+  &__title {
+    @apply text-5xl text-gray-800 font-bold max-w-lg mx-auto leading-snug;
+  }
+
+  &__cases-wrapper {
+    @apply flex w-full justify-between flex-wrap gap-y-9 mt-16;
+  }
+
+  &__case {
+    @apply bg-white p-12 text-left;
+
+    width: 30%;
+
+    h2 {
+      @apply text-xl font-semibold my-6;
+    }
+
+    p {
+      @apply text-gray-600 leading-7;
+    }
+
+    svg {
+      @apply w-10 h-10 text-blue-600;
+    }
+  }
+}

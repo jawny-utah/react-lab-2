@@ -1,0 +1,15 @@
+.mission-and-focus {
+  @apply flex flex-col gap-24 py-32;
+
+  &__block-wrapper {
+    @apply flex gap-28;
+
+    h2 {
+      @apply font-semibold text-4xl;
+    }
+
+    p {
+      @apply leading-7;
+    }
+  }
+}

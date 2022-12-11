@@ -1,0 +1,19 @@
+.header {
+  @apply flex my-32 justify-between;
+
+  &__wrapper {
+    width: 40%;
+  }
+
+  h2 {
+    @apply mb-8 text-6xl leading-normal font-semibold;
+  }
+
+  p {
+    @apply text-gray-700;
+  }
+
+  span {
+    @apply leading-7 text-gray-700;
+  }
+}

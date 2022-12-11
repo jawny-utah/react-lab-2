@@ -1,0 +1,19 @@
+.welcome {
+  @apply flex flex-col;
+
+  &__title {
+    @apply text-6xl font-bold text-white leading-snug;
+  }
+
+  &__subtitle {
+    @apply text-gray-200 mt-9 leading-7;
+  }
+
+  &__wrapper {
+    @apply flex justify-between;
+
+    img {
+      @apply max-w-xl h-fit rounded-xl shadow-lg;
+    }
+  }
+}

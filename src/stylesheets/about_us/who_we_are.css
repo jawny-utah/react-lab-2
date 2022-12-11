@@ -1,0 +1,17 @@
+.who-we-are {
+  @apply flex flex-col bg-gray-100 p-20;
+
+  &__wrapper {
+    @apply flex gap-14;
+  }
+
+  &__block-wrapper {
+    h2 {
+      @apply text-4xl leading-normal font-semibold mt-1;
+    }
+
+    p {
+      @apply text-base leading-7 text-gray-700 mt-4;
+    }
+  }
+}

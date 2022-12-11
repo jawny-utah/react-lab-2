@@ -1,0 +1,35 @@
+.testimony {
+  @apply flex w-full py-52 justify-between;
+
+  &__title {
+    @apply text-5xl font-bold leading-snug;
+  }
+
+  &__subtitle {
+    @apply mt-8;
+  }
+
+  &__review {
+    @apply text-4xl font-semibold text-gray-800 leading-relaxed;
+  }
+
+  &__avatar {
+    @apply w-20 h-20 overflow-hidden rounded-full;
+
+    img {
+      @apply w-20 h-auto;
+    }
+  }
+
+  &__name {
+    @apply text-lg font-medium;
+  }
+
+  &__position {
+    @apply text-xs;
+  }
+
+  svg {
+    @apply p-4 rounded-full w-14 cursor-pointer transition bg-slate-100 hover:text-white hover:bg-blue-400;
+  }
+}
